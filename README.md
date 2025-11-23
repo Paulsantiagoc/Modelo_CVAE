@@ -18,27 +18,6 @@ El modelo aprende distribuciones multivariadas complejas a partir de datos hist�
 
 ---
 
-## 📂 Estructura del repositorio
-
-```
-📁 data/
-    ├── daily_matrices/
-    └── labels.csv
-📁 src/
-    ├── encoder.py
-    ├── decoder.py
-    ├── cvae_model.py
-    ├── train.py
-    └── utils.py
-📁 results/
-    ├── clusters/
-    └── metrics/
-📄 README.md
-📄 requirements.txt
-```
-
----
-
 ## 📊 Datos utilizados
 
 Los datos consisten en una serie temporal multivariable con:
@@ -94,48 +73,8 @@ Evaluación por **Time Series Clustering**, comparando centroides reales vs gene
 
 ---
 
-## 🧪 Ejemplo de uso
-
-```python
-from src.cvae_model import CVAE
-import torch
-
-model = CVAE(input_dim=1056, latent_dim=20, cond_dim=13)
-model.load_state_dict(torch.load("cvae_weights.pth"))
-model.eval()
-
-condition = one_hot_encode(1, num_classes=13)
-z = torch.randn(1, 20)
-
-generated = model.decode(z, condition)
-print(generated.shape)
-```
-
----
-
-## 🧩 Instalación
-
-```
-git clone https://github.com/usuario/Modelo_CVAE
-cd Modelo_CVAE
-pip install -r requirements.txt
-```
-
----
-
-## 🤝 Contribuciones
-
-Contribuciones abiertas vía **Issues** o **Pull Requests**.
-
----
-
 ## 📜 Cita
 
 > “Monthly-Conditioned CVAE for Realistic-Synthetic Energy and Weather Scenarios in Power Systems”,  
 > Corella, Grijalva, Acuña, USFQ – 2025.
 
----
-
-## 📄 Licencia
-
-MIT License
