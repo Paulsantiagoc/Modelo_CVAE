@@ -76,6 +76,6 @@ Evaluación por **Time Series Clustering**, comparando centroides reales vs gene
 
 ## 📜 Cita
 
-> “Monthly-Conditioned CVAE for Realistic-Synthetic Energy and Weather Scenarios in Power Systems”,  
-> Corella, Grijalva, Acuña, USFQ – 2025.
+> “Month-Conditioned Variational Autoencoder for Joint Energy and Meteorological Scenario Generation”,  
+> Corella Paul, Acuña Byron, Cherrez Diana and Grijalva Felipe USFQ – 2025.
 
