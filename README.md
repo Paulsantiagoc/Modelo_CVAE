@@ -1,4 +1,5 @@
-# 🧠 Monthly-Conditioned CVAE for Synthetic Energy & Weather Scenario Generation
+#  Month-Conditioned Variational Autoencoder for Joint Energy and Meteorological Scenario Generation
+
 
 Este repositorio contiene la implementación de un **Conditional Variational Autoencoder (CVAE) condicionado por el mes del año**, diseñado para generar **escenarios sintéticos realistas** de variables energéticas y meteorológicas.  
 El modelo aprende distribuciones multivariadas complejas a partir de datos históricos y permite simular perfiles completos diarios de 24 horas con coherencia física y temporal.
