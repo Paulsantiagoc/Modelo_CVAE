@@ -67,7 +67,9 @@ Evaluación por **Time Series Clustering**, comparando centroides reales vs gene
 ### 🔹 Producción Fotovoltaica
 - MSE ≈ 1.74×10⁻⁵  
 - Reproducción casi perfecta del perfil solar
-- ![Descripción](./Figuras/Fig7.png)
+- ![Cluster temporal Con datos Originales](./Figuras/Fig7.png)
+- ![Cluster temporal Con datos Sintéticos](./Figuras/Fig8.png)
+- ![Comparativa entre Datos Originales y Datos Generados](./Figuras/Fig9.png)
 
 
 ### 🔹 Producción Eólica
