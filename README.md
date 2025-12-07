@@ -76,6 +76,7 @@ Evaluación por **Time Series Clustering**, comparando centroides reales vs gene
 ### 🔹 Producción Eólica
 - MSE ≈ 1.39×10⁻⁵  
 - Buena aproximación pese a su naturaleza estocástica
+
 | Original | Sintético | Comparativa |
 |----------|-----------|-------------|
 | <img src="./Figuras/Fig10.png" width="400px"> | <img src="./Figuras/Fig11.png" width="400px"> | <img src="./Figuras/Fig12.png" width="400px"> |
