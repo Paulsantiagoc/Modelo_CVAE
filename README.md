@@ -46,6 +46,7 @@ Los datos consisten en una serie temporal multivariable con:
 ### 🔸 Función de pérdida (ELBO)
 Loss = BCE + KL
 
+<img src="./Figuras/Fig6.png" width="400px">
 ---
 
 ## 🚀 Entrenamiento
